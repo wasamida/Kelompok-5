@@ -79,16 +79,11 @@
                 </div>
 
                 <div class="links">
-                    <a href="{{ url('/admin/announcement')}}">Announcement</a>
-                    <a href="{{ url('/admin/article')}}">Article</a>
-                    <a href="{{ url('/admin/client')}}">Client</a>
-                    <a href="{{ url('/admin/comment')}}">Comment</a>
-                    <a href="{{ url('/admin/configuration')}}">Configuration</a>
-                    <a href="{{ url('/admin/news')}}">News</a>
-                    <a href="{{ url('/admin/portfolio')}}">Portfolio</a>
-                    <a href="{{ url('/admin/service')}}">Service</a>
-                    <a href="{{ url('/admin/team')}}">Team</a>
-                    <a href="{{ url('/admin/testimonial')}}">Testimonial</a>
+                    <a href="https://laravel.com/docs">Documentation</a>
+                    <a href="https://laracasts.com">Laracasts</a>
+                    <a href="https://laravel-news.com">News</a>
+                    <a href="https://forge.laravel.com">Forge</a>
+                    <a href="https://github.com/laravel/laravel">GitHub</a>
                 </div>
             </div>
         </div>
