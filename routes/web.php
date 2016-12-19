@@ -11,10 +11,42 @@
 |
 */
 
+Route::get('/himami', function () {
+    return view('himami');
+});
+
 Route::get('/', function () {
-    return view('welcome');
+    return view('welcome2');
 });
 
 Auth::routes();
 
 Route::get('/home', 'HomeController@index');
+
+Route::resource('admin/mahasiswa', 'MahasiswaController');
+
+Route::resource('admin/dosenpembimbing', 'DosenPembimbingController');
+
+Route::resource('admin/nilai', 'NilaiController');
+
+Route::resource('admin/proposal', 'ProposalController');
+
+Route::resource('admin/ujian', 'UjianController');
+
+Route::resource('admin/hasil', 'HasilController');
+
+Route::resource('admin/registrasi', 'RegistrasiController');
+
+Route::resource('admin/pengumuman', 'PengumumanController');
+
+
+
+
+
+
+
+
+
+
+
+

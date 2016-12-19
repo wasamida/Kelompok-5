@@ -12,7 +12,7 @@
     <link href="{{asset('asset/css/font-awesome.min.css')}}" rel="stylesheet">
     <link href="{{asset('asset/css/animate.min.css')}}" rel="stylesheet">
     <link href="{{asset('asset/css/prettyPhoto.css')}}" rel="stylesheet">
-    <link href="{{asset('asset/css/main.css')}}" rel="stylesheet">
+    <link href="{{asset('asset/ss/main.css')}}" rel="stylesheet">
     <link href="{{asset('asset/css/responsive.css')}}" rel="stylesheet">
     <!--[if lt IE 9]>
     <script src="js/html5shiv.js"></script>
@@ -70,20 +70,20 @@
                 <div class="collapse navbar-collapse navbar-right">
                     <ul class="nav navbar-nav">
                         <li class="active"><a href="index.html">Home</a></li>
-                        <li><a href="about-us.html">Mahasiswa</a></li>
-                        <li><a href="services.html">Pembimbing</a></li>
+                        <li><a href="about-us.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
                         <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Seminar<i class="fa fa-angle-down"></i></a>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <i class="fa fa-angle-down"></i></a>
                             <ul class="dropdown-menu">
-                                <li><a href="blog-item.html">Proposal</a></li>
-                                <li><a href="pricing.html">Hasil</a></li>
-                                <li><a href="404.html">Ujian</a></li>
+                                <li><a href="blog-item.html">Blog Single</a></li>
+                                <li><a href="pricing.html">Pricing</a></li>
+                                <li><a href="404.html">404</a></li>
+                                <li><a href="shortcodes.html">Shortcodes</a></li>
                             </ul>
                         </li>
-                        <li><a href="blog.html">Nilai</a></li> 
-                        <li><a href="contact-us.html">Registrasi</a></li>
-                        <li><a href="contact-us.html">Pengumuman</a></li>  
-
+                        <li><a href="blog.html">Blog</a></li> 
+                        <li><a href="contact-us.html">Contact</a></li>                        
                     </ul>
                 </div>
             </div><!--/.container-->
@@ -665,7 +665,7 @@
                     <li> <a href="#"><img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms" src="{{asset('asset/images/partners/partner2.png')}}"></a></li>
                     <li> <a href="#"><img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="900ms" src="{{asset('asset/images/partners/partner3.png')}}"></a></li>
                     <li> <a href="#"><img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="1200ms" src="{{asset('asset/images/partners/partner4.png')}}"></a></li>
-                    <li> <a href="#"><img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="1500ms" src="{{asset('asset/images/partners/partner5.png')}}"></a></li>
+                    <li> <a href="#"><img class="img-responsive wow fadeInDown')}}" data-wow-duration="1000ms" data-wow-delay="1500ms" src="{{asset('asset/images/partners/partner5.png')}}"></a></li>
                 </ul>
             </div>        
         </div><!--/.container-->
